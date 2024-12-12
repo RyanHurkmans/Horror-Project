@@ -145,7 +145,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (headTransform != null && cameraTransform != null)
         {
-            // The camera should follow the head exactly, no offset in FPS view.
+            
             // The camera will inherit the head position and rotation.
             cameraTransform.position = headTransform.position; // Camera follows the head directly
             cameraTransform.rotation = headTransform.rotation; // Camera rotates with the head
